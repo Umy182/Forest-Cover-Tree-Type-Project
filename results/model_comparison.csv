@@ -1,1 +1,5 @@
-
+Model,Accuracy,Recall_Macro,F1_Macro
+Decision Tree,0.9301,0.89,0.89
+Random Forest,0.9483,0.90,0.92
+XGBoost,0.9213,0.943,0.909
+SMOTE + Random Forest,0.9507,0.9362,0.9256
