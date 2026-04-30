@@ -240,8 +240,8 @@ forest-cover-predictor/
 │
 ├── notebooks/
 │   ├── Code_-_C2_FINAL__best_model_only_.ipynb     # Final model: SMOTE + Random Forest
-│   ├── Code_-_C2_first_presentation.ipynb          # Capstone 1 / first presentation notebook
-│   └── Code_-_C2_second_presentation.ipynb         # Second presentation notebook
+│   ├── Code_-_C2.ipynb          # Capstone 1 / first presentation notebook
+│   └── Code_-_C2_more_handling_techniques_applied.ipynb         # Second presentation notebook
 │
 ├── data/
 │   └── README.md                              # Dataset info + Kaggle download instructions
