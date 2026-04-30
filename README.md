@@ -124,13 +124,15 @@ Macro F1-score was chosen as the **primary evaluation metric** because the datas
 | **Balanced Accuracy** | **0.9362** |
 
 ### Model Comparison Table
-
 | Model | F1 Macro (Val) | Accuracy (Val) | Balanced Acc (Val) |
 |---|---|---|---|
-| Logistic Regression | — | — | — |
-| Decision Tree | — | — | — |
-| XGBoost | — | — | — |
-| **SMOTE + Random Forest** | **0.9256** | **0.9507** | **0.9362** |
+| Logistic Regression (Baseline) | 0.5336 | — | — |
+| Decision Tree (Baseline) | 0.8873 | — | — |
+| Random Forest (Baseline) | 0.9166 | — | — |
+| XGBoost (Baseline) | 0.0139 | — | — |
+| SMOTE + Decision Tree | 0.8938 | — | — |
+| Cost-Sensitive Random Forest | 0.9183 | — | — |
+| **SMOTE + Random Forest (Final)** | **0.9256** | **0.9507** | **0.9362** |
 
 > 📁 See `results/` folder for the full comparison metrics and confusion matrix.
 
